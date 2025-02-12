@@ -1,0 +1,117 @@
+//MÓDULO 1: INTRODUCCIÓN AL DESARROLLO DE APLICACIONES MÓVILES
+Ejercicios Sentencias IF/ELSE
+
+//1.Edad mínima para votar: Escribe un programa que le asigne un valor a una variable “edad” y verifique si puede votar (la edad mínima es 18).
+Si es mayor o igual a 18, imprime “puedes votar”
+de lo contrario, imprime “no puedes votar”
+let edad=25
+
+
+if (edad>=18) {console.log ("Puedes votar")}
+else {console.log ("No puedes votar")}
+
+Número positivo o negativo
+Escribe un programa que le asigne un valor a una variable “número” y verifique si es positivo, negativo o cero.
+let numero= 0
+
+
+if (numero <0) {console.log("Tu número es negativo")}
+  else if (numero>0) {console.log ("Tu número es positivo")}
+    else {console.log ("Tu número es cero")}
+
+Comparar dos números
+Escribe un programa que le asigne un valor a dos variables y determine cuál es mayor, menor o si son iguales.
+let variableA= 2
+let variableB= 1
+
+
+if (variableA < variableB) {console.log(variableA + " es menor que " + variableB)}
+  else if (variableA > variableB) {console.log(variableA + " es mayor que " + variableB)}
+    else {console.log (variableA + " es igual que " + variableB)}
+
+
+Número par o impar
+Escribe un programa que le asigne un valor a una variable y verifique si es par o impar.
+let variable= 3
+
+
+if (variable % 2 === 0) {console.log("El número es par")}
+else {console.log ("El número es impar")}
+
+Calificaciones
+Escribe un programa que le asigne un valor a una variable “calificación” numérica (del 0 al 100) y muestre el nivel de acuerdo a la siguiente escala:
+90-100: Excelente
+70-89: Bueno
+50-69: Suficiente
+0-49: Insuficiente
+let calificacion= 50
+
+
+if (calificacion>89) {console.log("Excelente")}
+  else if (calificacion>69 && calificacion<90) {console.log("Bueno")}
+    else if (calificacion>49 && calificacion<70) {console.log("Suficiente")}
+else {console.log ("Insuficiente")}
+
+Verificación de contraseña
+Escribe un programa que le asigne un valor a una variable de contraseña al usuario y verifique si es correcta (admin123)
+Si es correcta, muestra “Acceso concedido”
+Si no, “Acceso denegado”
+let contrasena= "admin1234"
+
+
+if (contrasena==="admin123") {console.log("Acceso concedido")}
+else {console.log ("Acceso denegado")}
+
+Verificar si un número está en un rango
+Escribe un programa que le asigne un valor a una variable numérica y verifique si está entre 10 y 20
+let variable= 15
+
+
+if (variable >=10 && variable <=20) {console.log("Tu número está dentro del rango")}
+else {console.log ("Tu número no está dentro del rango")}
+
+Mayor de tres números
+Escribe un programa que le asigne un valor a tres números y determine cuál es el mayor
+let vA= 150
+let vB= 20
+let vC= 3
+
+
+if (vA > vB && vA > vC) {console.log(vA+" es el número mayor")}
+  else if (vB > vA && vB > vC) {console.log(vB+" es el número mayor")}
+else {console.log (vC+" es el número mayor")}
+
+Verificar si una cadena está vacía **
+Escribe un programa que le asigne un valor de texto y verifique si la cadena está vacía o no.
+let texto= "hola"
+
+
+if (texto === "") {console.log ("La cadena está vacía")}
+else {console.log ("La cadena no está vacía")}
+
+
+—-----
+let cadena="cadena";
+ 
+if(cadena.length===0){
+ 
+  console.log("Cadena vacía")
+}else{
+ 
+  console.log("Cadena NO vacía")
+}
+
+Determinar el día de la semana
+Escribe un programa que le asigne un valor numérico del 1 al 7 al usuario y muestre qué día de la semana corresponde (1 para lunes, 2 para martes, etc)
+let valor= 5
+
+
+if (valor === 1) {console.log ("Lunes")}
+  else if (valor === 2) {console.log ("Martes")}
+  else if (valor === 3) {console.log ("Miércoles")}
+  else if (valor === 4) {console.log ("Jueves")}
+  else if (valor === 5) {console.log ("Viernes")}
+  else if (valor === 6) {console.log ("Sábado")}
+  else if (valor === 7) {console.log ("Domingo")}
+else {console.log ("No válido")}
+
